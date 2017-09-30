@@ -1,0 +1,26 @@
+<div class="padd_15 marg_top_sm" style="width: 100%;">
+    <form ng-submit="searchNodes()" class="searchbox border fl-cont fl-center" novalidate>
+        <div class="fl-wrap fl-grow">
+            <input type="text" class="search-input" ng-model="searchStr" style="width: 100%">
+        </div>
+        <div class="fl-wrap hand_cursor">
+            <img src="/images/icons/search.svg" alt="backspace" class="sm-icon" ng-click="searchNodes()">
+        </div>
+    </form>
+
+</div>
+
+
+<div class=" padd_15 padd_top_sm " style="width: 100%;">
+    <div class="border-flat" id="search-results" ng-if="nodes && nodes.length !== 0">
+        <a ng-repeat="node in nodes track by node.id" class="fl-cont fl-center padd_15 gr-hover-el bord_bott undec"
+           ng-click="addNodeWithNeighbours(node)">
+            <div class="fl-wrap padd_ri_10">
+                <div class="sm-dot" style="{{'background-color: ' + getNodeColor(node)}}"></div>
+            </div>
+            <div class="fl-wrap">
+                <p class="no_marg semibold"> {{getNodeLabel(node)}} </p>
+            </div>
+        </a>
+    </div>
+</div>

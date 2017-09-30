@@ -1,0 +1,39 @@
+<div class="fl-cont gx-main-content" style="background-color: white;">
+    <div class="inline-flex">
+
+    </div>
+    <div class="inline-flex" style="flex-grow: 1;">
+        <div class="col-xs-12 main main_div_size">
+            <div class="graph-bages">
+                <div ng-repeat="badge in badges track by badge._private.data.id" class="fl-cont">
+                    <div class="fl-wrap">
+                        <div class="gx-bage graph-bage fl-cont fl-center marg_bott_10"
+                             style="{{'background-color: ' +  badge.data('color')}}">
+                            <div class="fl-wrap padd_ri_10 {{badge.data('textColor') === '#ffffff' ? undefined : 'black'}}">
+                                {{badge.data('label')}}
+                            </div>
+                            <div class="fl-wrap">
+                                <img ng-src="{{badge.data('textColor') === '#ffffff' ? '/images/icons/close_fill.svg' : '/images/icons/close_fill_bl.svg'}}" alt="backspace" class="xsm-icon"
+                                     ng-click="deleteNodeWithNeighbours(badge)"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="graph" style="height: 100vh; overflow: hidden;"></div>
+        </div>
+    </div>
+</div>
+
+
+<button type="button" class="mdc-button cmn-btn lite-blue reset-btn-abs" ng-click="resetGraph()">
+    <div class="fl-cont fl-center">
+        <div class="fl-wrap padd_ri_10">
+            <img src="/images/icons/reset.svg" alt="backspace" class="xsm-icon">
+        </div>
+        <div class="fl-wrap">
+            Reset
+        </div>
+    </div>
+</button>

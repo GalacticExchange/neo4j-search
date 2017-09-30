@@ -1,0 +1,30 @@
+.searchbox{
+    border: solid 1px rgba(212, 212, 212, 0.6);
+    height: 45px;
+    width: 100%;
+    padding: 0 15px 0 20px;
+    border-radius: 2px;
+}
+
+.search-input{
+    padding: 10px 0px;
+    background-color: transparent;
+    border: none !important;
+    outline: none !important;
+}
+
+.gx-input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #3c3c3c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(212, 212, 212, 0.6);
+    border-radius: 0px;
+    box-shadow: none;
+    -webkit-transition: none !important;
+    transition: none !important;
+}

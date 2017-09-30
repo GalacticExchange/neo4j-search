@@ -1,0 +1,8 @@
+<div ng-if="node">
+    <h3 style="display: inline-block;">{{node.properties | getNodeName}}</h3>
+    <img src="/images/icons/close_fill_bl.svg" alt="backspace" class="md-icon marg_left_10"
+         ng-click="closeView()"/>
+    <ul style="list-style-type:disc">
+        <li ng-repeat="(key, value) in node.properties">{{key + ': ' + value}}</li>
+    </ul>
+</div>

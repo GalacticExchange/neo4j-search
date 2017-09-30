@@ -1,0 +1,154 @@
+.graph-bages{
+    z-index: 9999;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.graph-bage{
+    border-radius: 30px !important;
+    padding: 4px 10px 4px 20px !important;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.error-msg {
+    background-color: #ec7373;
+    padding: 15px 25px;
+    max-width: 900px;
+    font-size: 11pt;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    min-height: 20px;
+}
+.error-msg .text-danger {
+    color: white;
+    line-height: 1.9;
+}
+
+.gx-bage {
+    background-color: #575456;
+    padding: 3px 10px;
+    color: white;
+    border-radius: 4px;
+}
+.gx-bage h6 {
+    margin: 0 !important;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.gx-bage-lg {
+    padding: 8px 12px;
+}
+
+.gx-bage.lite-gr-bage {
+    background-color: #e4e4e4;
+}
+
+.gx-bage.trace-bage {
+    background-color: #7f7c7e;
+}
+
+.gx-bage.debug-bage {
+    background-color: #575456;
+}
+
+.gx-bage.info-bage {
+    background-color: #43A047;
+}
+
+.gx-bage.warning-bage {
+    background-color: #FFB300;
+}
+
+.gx-bage.error-bage {
+    background-color: #F44336;
+}
+
+.gx-bage.critical-bage {
+    background-color: #C62828;
+}
+
+.gx-bage.purple-bage {
+    background-color: rgba(82, 79, 202, 0.9);
+}
+
+.gx-bage.cyan-bage {
+    background-color: rgba(27, 137, 156, 0.9);
+}
+
+.error-msg {
+    background-color: #ec7373;
+    padding: 15px 25px;
+    max-width: 900px;
+    font-size: 11pt;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    min-height: 20px;
+}
+.error-msg .text-danger {
+    color: white;
+    line-height: 1.9;
+}
+
+.gx-bage {
+    background-color: #575456;
+    padding: 3px 10px;
+    color: white;
+    border-radius: 4px;
+}
+.gx-bage h6 {
+    margin: 0 !important;
+    color: white;
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.gx-bage-lg {
+    padding: 8px 12px;
+}
+
+.gx-bage.lite-gr-bage {
+    background-color: #e4e4e4;
+}
+
+.gx-bage.trace-bage {
+    background-color: #7f7c7e;
+}
+
+.gx-bage.debug-bage {
+    background-color: #575456;
+}
+
+.gx-bage.info-bage {
+    background-color: #43A047;
+}
+
+.gx-bage.warning-bage {
+    background-color: #FFB300;
+}
+
+.gx-bage.error-bage {
+    background-color: #F44336;
+}
+
+.gx-bage.critical-bage {
+    background-color: #C62828;
+}
+
+.gx-bage.purple-bage {
+    background-color: rgba(82, 79, 202, 0.9);
+}
+
+.gx-bage.cyan-bage {
+    background-color: rgba(27, 137, 156, 0.9);
+}

@@ -1,0 +1,56 @@
+
+.header {
+    position:fixed;
+    left:0;
+    right:0;
+    width:auto;
+    //height: 84px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.9);
+    margin:auto;
+    z-index: 999;
+    //box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.15);
+    border-bottom: solid 1px rgba(212, 212, 212, 0.6);
+}
+
+
+.header-link{
+    font-size: 13px;
+    line-height: 64px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0px;
+}
+.header-link-in{
+    font-size: 13px;
+    line-height: 84px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin: 0px;
+}
+
+.header-link-active{
+    border-bottom: 1px white solid;
+    border-left: solid 1px rgba(212, 212, 212, 0.6);
+    border-right: solid 1px rgba(212, 212, 212, 0.6);
+    margin: 0 -1px 0 -1px;
+}
+
+.header-link-active h6.header-link {
+    line-height: 62px;
+    margin-top: 2px;
+}
+
+.hover-el:hover{
+    background-color: rgba(124, 182, 255, 0.14) !important;
+    cursor: pointer;
+}
+.gr-hover-el:hover{
+    background-color: rgba(238, 238, 238, 0.6) !important;
+    cursor: pointer;
+}
+
+
+.layout-content {
+    margin: auto;
+    padding-top: 64px;
+    margin-bottom: 63px;
+}
